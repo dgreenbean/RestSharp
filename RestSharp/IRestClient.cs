@@ -76,7 +76,7 @@ namespace RestSharp
 
         IWebProxy Proxy { get; set; }
 
-		RequestCachePolicy CachePolicy { get; set; }
+        RequestCachePolicy CachePolicy { get; set; }
 #endif
 
         bool FollowRedirects { get; set; }

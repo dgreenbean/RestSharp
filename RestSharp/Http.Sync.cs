@@ -298,10 +298,10 @@ namespace RestSharp
             }
 
 #if FRAMEWORK
-	        if (CachePolicy != null)
-	        {
-		        webRequest.CachePolicy = CachePolicy;
-	        }
+            if (CachePolicy != null)
+            {
+                webRequest.CachePolicy = CachePolicy;
+            }
 #endif
 
             webRequest.AllowAutoRedirect = FollowRedirects;

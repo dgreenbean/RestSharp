@@ -462,10 +462,10 @@ namespace RestSharp
             }
 
 #if FRAMEWORK
-	        if (CachePolicy != null)
-	        {
-		        webRequest.CachePolicy = CachePolicy;
-	        }
+            if (CachePolicy != null)
+            {
+                webRequest.CachePolicy = CachePolicy;
+            }
 #endif
 
             if (FollowRedirects && MaxRedirects.HasValue)

@@ -202,10 +202,10 @@ namespace RestSharp
 #endif
 
 #if FRAMEWORK
-		/// <summary>
-		/// Caching policy for requests created with this wrapper.
-		/// </summary>
-		public RequestCachePolicy CachePolicy { get; set; }
+        /// <summary>
+        /// Caching policy for requests created with this wrapper.
+        /// </summary>
+        public RequestCachePolicy CachePolicy { get; set; }
 #endif
 
         /// <summary>
